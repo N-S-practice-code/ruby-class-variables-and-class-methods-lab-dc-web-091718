@@ -30,3 +30,9 @@ class Song
   end
   
 end
+
+def get_counts(arr)
+  r={}
+  arr.each {}
+  r
+end
