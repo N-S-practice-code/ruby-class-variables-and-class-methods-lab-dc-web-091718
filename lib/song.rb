@@ -41,7 +41,6 @@ end
 
 def get_counts(arr)
   r={}
-  puts arr
   arr.each do |el| 
     r[el]=0 unless r.keys.include?(el)
     r[el]+=1
