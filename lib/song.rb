@@ -3,6 +3,11 @@ class Song
   attr_accessor :discount
   attr_accessor :items
   
+  
+  @@all = []
+ 
+  attr_accessor :name
+  
   def initialize(discount=nil)
     @total = 0
     @discount=discount
