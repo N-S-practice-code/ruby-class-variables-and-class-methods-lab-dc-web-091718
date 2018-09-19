@@ -1,17 +1,13 @@
 class Song
-  attr_accessor :total
-  attr_accessor :discount
-  attr_accessor :items
-  
   
   @@all = []
  
   attr_accessor :name
   
-  def initialize(discount=nil)
-    @total = 0
-    @discount=discount
-    @items=[]
+  def initialize(name, artist, genre)
+    @name = name
+    @artist=artist
+    @genre=genre
   end
   
 end
