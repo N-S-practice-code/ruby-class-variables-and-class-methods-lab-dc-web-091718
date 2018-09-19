@@ -22,7 +22,7 @@ class Song
   end
   
   def self.artists
-    @@artists.count
+    @@artists
   end
   
   def self.artist_count
