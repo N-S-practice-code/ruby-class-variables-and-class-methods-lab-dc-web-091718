@@ -42,6 +42,6 @@ end
 def get_counts(arr)
   r={}
   puts arr
-  arr.each {|el| puts  r.keys.include?(el) }
+  arr.each {|el| puts r.keys.include?(el) and r[el]=1 }
   r
 end
