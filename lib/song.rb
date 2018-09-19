@@ -41,6 +41,6 @@ end
 
 def get_counts(arr)
   r={}
-  arr.each {}
+  arr.each {|el| }
   r
 end
